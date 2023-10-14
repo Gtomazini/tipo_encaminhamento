@@ -13,7 +13,8 @@ import { Tipo_Encaminhamento } from './tipo_encaminhamento.model';
 
 	export class Tipo_EncaminhamentoService {
 
-  		baseUrl = `${environment.baseUrl}/tipo_encaminhamento`
+		//API
+  		baseUrl = `${environment.baseUrl}/patient_referral`
 
   		constructor(private httpCliente: HttpClient, private router: Router, private loginService: LoginService, public cookieService: CookieService) { }
 
